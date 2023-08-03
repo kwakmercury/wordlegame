@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-bottom: 1px solid #d3d6da;
+  margin-bottom: 5px;
+}
+
+.header-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 27px;
+  width: 27px;
+  margin-left: 10px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3ch;
+  font-weight: bold;
+  transform: translateX(3ch);
+}
+
+.header-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
